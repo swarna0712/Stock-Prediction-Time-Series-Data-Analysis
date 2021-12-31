@@ -51,3 +51,5 @@ Eventhough SARIMA seems like the better option to consider the seasonality and t
 c. Reasoning for what model is chosen to predict test (hidden) data
 
 According to our analysis, MLR gave better prediction and thus a lower RMSE value as fluctuations due to the seasonality component was captured well. The ARIMA model generated did not capture the seasonality component hence giving us a greater RMSE value as compared to the Multiple Linear Regression model. Since there was a high correlation between the Open, High, Low and Close values, we know a linear relationship exists between them. Hence, Multiple Linear Regression came out as the best model. We therefore followed the Occam's razor principle and decided on MLR.
+
+RMSE FOR THIS MODEL WHEN SUBMITTED WAS 32.74 when we trained it for the entire training data to predict test data
